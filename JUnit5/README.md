@@ -59,60 +59,95 @@ JUnit5 provides a rich set of annotations that you can use to write tests and cu
 
 + ***Mark a method as a test method that should be executed by the test runner***
 ```bash 
-    ![#c5f015]@Test
+    @Test
 ```
 
-+ *** ***
++ ***Mark a method that should be executed once before all test methods in the test class***
 ```bash 
-    
+    @BeforeAll
+    ## the method should be static
 ```
 
-+ *** ***
++ ***Mark a method that should be executed once after all test methods in the test class***
 ```bash 
-    
+    @AfterAll
+    ## the method should be static
 ```
 
-+ *** ***
++ ***Mark a method that should be executed before each test method in the test class***
 ```bash 
-    
+    @BeforeEach
 ```
 
-+ *** ***
++ ***Mark a method that should be executed after each test method in the test class***
 ```bash 
-    
+    @AfterEach
 ```
 
-+ *** ***
++ ***Provide a custom display name for a test class or method**
 ```bash 
-    
+    @DisplayName
 ```
 
-+ *** ***
++ ***Mark a test class or method as disabled, causing it to be skipped during test execution***
 ```bash 
-    
+    @Disabled
 ```
 
-+ *** ***
++ ***Allow nesting test classes to create a hierarchy of tests***
 ```bash 
-    
+    @Nested
 ```
 
-+ *** ***
++ ***Mark a method as a parameterized test that should be executed with different sets of input parameters***
 ```bash 
-    
+    @ParameterizedTest
 ```
 
-+ *** ***
++ ***Provide a single source of input values for a parameterized test method***
 ```bash 
-    
+    @ValueSource
 ```
 
-+ *** ***
++ ***Provide CSV values as input for a parameterized test method***
 ```bash 
-    
+    @CsvSource
 ```
 
-+ *** ***
++ ***Provide a method as a source of input values for a parameterized test method***
 ```bash 
-    
+    @MethodSource
 ```
+
++ ***Mark a method as a test to be repeated a specified number of times***
+```bash 
+    @RepeatedTest
+```
+
++ ***Specifie a timeout for a test method to fail if it exceeds the specified duration***
+```bash 
+    @Timeout
+```
+
++ ***Allow tagging test classes or methods for filtering during test execution***
+```bash 
+    @Tag
+```
+
++ ***Allow the use of extensions to customize the behavior of test classes or methods***
+```bash 
+    @ExtendWith
+```
+
+## Additional annotations and features in JUnit5
+
++ ***Assertions***: JUnit5 provides a rich set of assertion methods in the org.junit.jupiter.api.Assertions class, including `assertEquals`, `assertTrue`, `assertFalse`, `assertNull`, `assertNotNull`, `assertArrayEquals`, and more. These assertions are used to verify the behavior of your code during test execution.
+
++ ***Assumptions***: JUnit5 also includes assumptions, which are similar to assertions but allow you to specify conditions under which a test should be executed using methods like `assumeTrue` and `assumeFalse`. If an assumption fails, the test is aborted but not marked as a failure.
+
++ ***Test Suites***: JUnit5 allows you to create test suites to group multiple test classes and run them together. You can use the `@RunWith(JUnitPlatform.class)` annotation at the class level to create a test suite, and then specify the test classes to include using `@SelectPackages` or `@SelectClasses` annotations.
+
++ ***Dynamic Tests***: JUnit5 introduces support for dynamic tests, which are tests generated at runtime rather than being defined statically in the test class. Dynamic tests are created using factory methods annotated with `@TestFactory` and can be generated based on input parameters or conditions at runtime. This allows for more flexible and expressive testing scenarios.
+
+
+
