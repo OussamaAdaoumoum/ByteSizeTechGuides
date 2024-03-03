@@ -183,9 +183,9 @@ These commands cover a wide range of functionalities in Git, from basic reposito
 Git is a powerful tool for version control, enabling seamless collaboration and efficient project management. By understanding its key concepts and basic commands, you can effectively track changes, work on features independently, and integrate them with the main codebase. Whether you're working solo or in a team, Git is an essential skill for every developer's toolkit.
 
 ### Resources:
-``
-**Official Git Documentation**: https://git-scm.com/doc
-**GitHub Guides**: https://guides.github.com/
-**Atlassian Git Tutorial**: https://www.atlassian.com/git/tutorials
-``
+
+- **Official Git Documentation**: https://git-scm.com/doc
+- **GitHub Guides**: https://guides.github.com/
+- **Atlassian Git Tutorial**: https://www.atlassian.com/git/tutorials
+
 Start exploring Git today and unlock its full potential for your projects!
