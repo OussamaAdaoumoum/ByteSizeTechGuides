@@ -59,7 +59,7 @@ JUnit5 provides a rich set of annotations that you can use to write tests and cu
 
 + ***Mark a method as a test method that should be executed by the test runner***
 ```bash 
-    [GREEN]@Test[RESET]
+    ![#c5f015]@Test
 ```
 
 + *** ***
