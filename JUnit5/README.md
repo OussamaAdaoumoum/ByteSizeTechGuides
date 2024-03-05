@@ -2,7 +2,7 @@
 
 ## Introduction:
 
-JUnit5 is a powerful testing framework for Java, designed to make writing and running tests easier and more effective. Whether you're a beginner or an experienced developer, JUnit5 is an indispensable tool in your testing arsenal. In this article, we'll explore the key features of JUnit5, its differences from older versions, its modules, and the annotations you can use to write effective tests.
+`JUnit5` is a powerful testing framework for Java, designed to make writing and running tests easier and more effective. Whether you're a beginner or an experienced developer, JUnit5 is an indispensable tool in your testing arsenal. In this article, we'll explore the key features of JUnit5, its differences from older versions, its modules, and the annotations you can use to write effective tests.
 
 ## Key Features of JUnit5:
 JUnit5 comes with several key features that make it stand out:
