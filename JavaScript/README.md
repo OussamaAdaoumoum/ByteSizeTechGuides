@@ -682,7 +682,7 @@ console.log(double(5)); // Output: 10
 
 ### Array methods in JavaScript 
 
-+ 1. ***map***:
++ ***map***:
 The `map` method creates a new array by applying a function to each element of the original array.
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
@@ -693,7 +693,7 @@ console.log(squaredNumbers); // Output: [1, 4, 9, 16, 25]
 ```
 The `map` method takes a callback function as an argument, which is applied to each element of the array. The callback function receives three arguments: the current element, the index of the current element, and the array being traversed.
 
-+ 2. ***filter***:
++ ***filter***:
 The `filter` method creates a new array with all elements that pass the test implemented by the provided function.
 
 ```javascript
@@ -705,7 +705,7 @@ console.log(evenNumbers); // Output: [2, 4]
 ```
 The `filter` method also takes a callback function as an argument, which returns true to keep the element, or false otherwise.
 
-+ 3. ***slice***:
++ ***slice***:
 The `slice` method returns a shallow copy of a portion of an array into a new array object.
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
@@ -717,7 +717,7 @@ console.log(slicedNumbers); // Output: [2, 3]
 The slice method takes two arguments: the starting index (inclusive) and the ending index (exclusive) of the portion to be sliced.
 
 
-+ 4. ***splice***: 
++ ***splice***: 
 The `splice` method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
@@ -729,7 +729,7 @@ console.log(numbers); // Output: [1, 4, 5]
 ```
 The `splice` method takes three arguments: the starting index, the number of elements to remove, and optional new elements to add.
 
-+ 5. ***concat***: 
++ ***concat***: 
 The `concat` method is used to merge two or more arrays, returning a new array without modifying the existing arrays.
 ```javascript
 const numbers1 = [1, 2];
@@ -743,7 +743,7 @@ console.log(mergedNumbers); // Output: [1, 2, 3, 4, 5, 6]
 The `concat` method can accept any number of arrays or values as arguments.
 
 
-+ 6. ***join***:
++ ***join***:
 The `join` method joins all elements of an array into a string.
 ```javascript
 const fruits = ['Apple', 'Banana', 'Orange'];
@@ -754,7 +754,7 @@ console.log(joinedFruits); // Output: "Apple, Banana, Orange"
 ```
 The `join` method takes an optional separator string as an argument, which specifies how to separate the elements in the resulting string.
 
-+ 7. ***every***:
++ ***every***:
 The `every` method tests whether all elements in the array pass the provided function.
 
 ```javascript
@@ -766,7 +766,7 @@ console.log(allEven); // Output: true
 ```
 The `every` method takes a callback function as an argument, which tests each element in the array. It returns true if all elements pass the test, or false otherwise.
 
-+ 8. ***some***:
++ ***some***:
 The `some` method tests whether at least one element in the array passes the provided function.
 
 ```javascript
@@ -778,7 +778,7 @@ console.log(hasEvenNumber); // Output: true
 ```
 The `some` method also takes a callback function as an argument and returns true if at least one element passes the test, or false otherwise.
 
-+ 9. ***split***:
++ ***split***:
 The `split` method is used to split a string into an array of substrings based on a specified separator and returns a new array.
 ```javascript
 const sentence = 'The quick brown fox jumps over the lazy dog';
@@ -790,7 +790,7 @@ console.log(words);
 ```
 In this example, the `split` method splits the sentence string into an array of words based on the space character (' ') separator.
 
-+ 10. ***sort***:
++ ***sort***:
 The `sort` method is used to sort the elements of an array in place and returns the sorted array.
 ```javascript
 const numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5];
